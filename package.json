@@ -1,0 +1,46 @@
+{
+  "name": "react-care",
+  "version": "1.0.0",
+  "description": "Charity project using React",
+  "main": "src/index.js",
+  "repository": "git@github.com:NaritaBagchi/react-care.git",
+  "author": "Narita Bagchi <contactnarita@gmail.com>",
+  "scripts": {
+    "start-serve": "node server.js",
+    "wp-server": "webpack-dev-server",
+    "dev": "(start npm run start-serve && start npm run wp-server)",
+    "start": "npm run dev",
+    "test": "jest"
+  },
+  "dependencies": {
+    "isomorphic-fetch": "^2.2.1",
+    "react": "^16.0.0",
+    "react-bootstrap": "^0.32.1",
+    "react-dom": "^16.0.0",
+    "react-fontawesome": "^1.6.1",
+    "react-redux": "^5.0.6",
+    "react-svg": "^2.2.15",
+    "react-toastr": "^3.0.0",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0",
+    "styled-components": "^2.2.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.0.1",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.11",
+    "eslint": "^4.8.0",
+    "eslint-plugin-react": "^7.4.0",
+    "jest": "^21.2.1",
+    "json-server": "^0.12.0",
+    "node-sass": "^4.8.3",
+    "sass-loader": "^6.0.7",
+    "style-loader": "^0.20.3",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.9.1"
+  }
+}

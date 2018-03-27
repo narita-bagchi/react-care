@@ -1,0 +1,72 @@
+{
+  "charities": [
+    {
+      "id": 1,
+      "name": "Missionaries of Charity",
+      "image": "missionaries-of-charity.jpg",
+      "currency": "INR"
+    },
+    {
+      "id": 2,
+      "name": "Kolkata Gives",
+      "image": "kolkata-gives.jpg",
+      "currency": "INR"
+    },
+    {
+      "id": 3,
+      "name": "Amar Ujala",
+      "image": "amar-ujala.jpeg",
+      "currency": "INR"
+    },
+    {
+      "id": 4,
+      "name": "Responsible Charity",
+      "image": "responsible-charity.jpg",
+      "currency": "INR"
+    },
+    {
+      "id": 5,
+      "name": "Carl Kruse",
+      "image": "carlkruse.jpg",
+      "currency": "INR"
+    }
+  ],
+  "payments": [
+    {
+      "charitiesId": 2,
+      "amount": 10,
+      "currency": "INR",
+      "id": 1
+    },
+    {
+      "charitiesId": 1,
+      "amount": 20,
+      "currency": "INR",
+      "id": 2
+    },
+    {
+      "charitiesId": 3,
+      "amount": 50,
+      "currency": "INR",
+      "id": 3
+    },
+    {
+      "charitiesId": 1,
+      "amount": 100,
+      "currency": "INR",
+      "id": 4
+    },
+    {
+      "charitiesId": 2,
+      "amount": 500,
+      "currency": "INR",
+      "id": 5
+    },
+    {
+      "charitiesId": 3,
+      "amount": 500,
+      "currency": "INR",
+      "id": 6
+    }
+  ]
+}
